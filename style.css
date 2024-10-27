@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.contenedor h1{
+    text-align: center;
+}
+
+.contenedor details{
+    margin: 10px;
+    background: #15b6d3;
+    padding: 20px;
+    color: #fff;
+}
+
+.contenedor details:hover{
+    background: #12a7c2;
+}
+
+.contenedor details summary{
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.contenedor details>p{
+    margin: 15px;
+}x
+
+.contenedor ul{
+    margin: 20px;
+}
+
+.contenedor ul li{
+    margin: 15px;
+}
